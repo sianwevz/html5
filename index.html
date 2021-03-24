@@ -5,68 +5,48 @@
     <meta name="description" content="This is a webpage">
     <meta name="keywords" content="merthyr, tydfil, cat">
      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, minimal-ui">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 
 <main>
     <body>
-    <nav class="navbar navbar-default">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span> 
-            </button>
-            <a class="navbar-brand" href="#">Me</a>
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">WHO</a></li>
-              <li><a href="#">WHAT</a></li>
-              <li><a href="#">WHERE</a></li>
-            </ul>
-          </div>
+        <nav class="navbar" role="navigation">
+            <div>
+                <div>
+                    <a href="index.html">Home</a>
+                </div>
+                <div>
+                     <ul class="nav navbar-nav">
+                        <li><a href="visit.html">VISIT</a></li>
+                        <li><a href="learn.html">LEARN</a></li>
+                        <li><a href="aboutus.html">ABOUT US</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+  
+    <div class="container-fluid">
+        <h1>This is a heading</h1>
+    </div>
+    <div class="container-fluid">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis turpis arcu, ultricies vel leo et, ultrices finibus turpis. Aenean blandit vestibulum condimentum. Sed sagittis, justo id feugiat bibendum, arcu lorem pretium mauris, in pulvinar turpis ante at augue. Maecenas at porttitor enim. Praesent scelerisque finibus urna, tempus suscipit enim tincidunt at. Duis porta nibh nec maximus efficitur. Duis efficitur auctor dui non venenatis. Sed vel lacus hendrerit, ornare neque sed, semper metus. Aenean eu ex quis nisi blandit lacinia. Cras at dui justo. Mauris quis diam sem.</p>
+        
+        <p>Praesent gravida dapibus ornare. Pellentesque egestas elit et mollis mattis. Suspendisse ac mi augue. Phasellus at velit eget nibh fermentum consectetur et eu lacus. Quisque sodales faucibus purus, sit amet tempor justo maximus id. Nullam libero tortor, fermentum in velit ac, tempus venenatis quam. Phasellus suscipit libero dui, a finibus erat aliquam sed. Nam consectetur neque quis sem tincidunt, vel consectetur tortor viverra. Integer at dolor sit amet dui pharetra iaculis. Morbi vitae diam eu nunc tempus consectetur. In eleifend lorem ut egestas sodales. Ut felis orci, maximus eget ex nec, egestas consequat arcu.</p>
+
+        <p>Sed ut vehicula nisi. Aliquam erat volutpat. Mauris rhoncus nisl vel urna laoreet vestibulum. Morbi id malesuada mauris. Aenean feugiat massa nulla, scelerisque varius quam elementum nec. Donec pharetra auctor libero quis sodales. Ut porttitor lectus ac hendrerit aliquet.</p>
+
+        <p>Quisque quis porta velit, at cursus lorem. Quisque volutpat, metus eu volutpat finibus, lectus sem rutrum tellus, rutrum aliquam lacus ipsum a purus. Donec ultrices et eros dapibus viverra. Etiam porta ligula non malesuada fringilla. Fusce ullamcorper magna ut porttitor lacinia. Fusce in massa lectus. Quisque at imperdiet mauris, vel commodo nisl. Pellentesque eu mollis nisl. Quisque sed dolor vel mauris placerat mattis vel sed arcu. Pellentesque justo lacus, gravida sit amet eleifend vel, posuere posuere orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam sit amet condimentum urna, nec molestie libero.</p>
+
+       <p> Pellentesque dui lacus, euismod sit amet aliquet ac, varius ac arcu. Pellentesque molestie scelerisque orci, et ornare neque ultricies sit amet. Nullam sed aliquam neque, vitae blandit mauris. Nunc vel nulla sit amet magna fermentum ornare et in est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum placerat elementum. Praesent dapibus justo ipsum, vel porta eros facilisis in. In sodales eu purus ut ultrices.</p>
+
         </div>
-      </nav>
-  
-<div class="container-fluid bg-1 text-center">
-    <h1>This is a heading</h1> 
-    <img src="./images/ales-krivec-QnNqGoCnBg0-unsplash.jpg" alt="Ales Krivec via Unsplash" />
-</div>
-<div class="container-fluid bg-2 text-center">
-  <p>This is me adding some content to the middle of the page</p>
-   <button class="accordion">Section 1</button>
-  <div class="panel">
-    <p>Lorem ipsum...</p>
-  </div>
-  
-  <button class="accordion">Section 2</button>
-  <div class="panel">
-    <p>Lorem ipsum...</p>
-  </div>
-  
-  <button class="accordion">Section 3</button>
-  <div class="panel">
-    <p>Lorem ipsum...</p>
-  </div>
-</div>
 
 </main>
-<footer class="container-fluid bg-4 text-center">
-    <div class="small">
+<footer class="container-fluid footer">
+    <div>
         <a href="#">Cookie Policy</a> | <a href="#">Accessibility Statement</a>| <a href="#">Privacy Policy</a> | <a href="#">Terms and Conditions</a>
     </div>
-        <!-- Add font awesome icons -->
-    <footer class="container-fluid bg-4 text-center">
-        <a href="https://twitter.com/" class="fa fa-twitter"></a>
-        <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
-    </footer>
-<script src="./js/jsaccordion.js"></script>
 </body>
 </html>
