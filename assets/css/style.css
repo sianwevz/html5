@@ -1,7 +1,5 @@
 .navbar {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 40px;
+    padding: 30px;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
@@ -23,6 +21,7 @@ h1 {
     font-family: 'Brush Script MT', cursive;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 10px;
 }
 
 h2 {
@@ -39,7 +38,7 @@ h3 {
 
 
 .container-fluid {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 body {
@@ -47,6 +46,22 @@ body {
     font: 19px;
     line-height: 1.8;
     color: #f5f6f7;
+
+    p {
+    font-size: 19px;
+    color: #222;
+    padding-left: 30px;
+    padding-right: 30px; 
+    padding-bottom: 10px;
+}
+}
+
+
+/* form*/
+.contactform {
+    text-align: left;
+    font-size: 19px;
+    padding-left: 30px;
 }
 
 /* Footer */
@@ -58,17 +73,5 @@ body {
     font-size: 14px;
 }
 
-p {
-    font-size: 19px;
-    color: #222;
-    padding-left: 30px;
-    padding-right: 30px; 
-    padding-bottom: 10px;
-}
 
-/* form*/
-.contactform {
-    text-align: left;
-    font-size: 30px;
-    padding-bottom: 20px;
-}
+
