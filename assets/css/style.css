@@ -28,6 +28,7 @@ h2 {
     color: black;
     text-align: left;
     font-size: 36px;
+    padding-left: 30px;
 }
 
 h3 {
@@ -39,6 +40,8 @@ h3 {
 
 .container-fluid {
     padding-top: 10px;
+    padding-left: 30px;
+    text-align: left;
 }
 
 body {
